@@ -18,6 +18,20 @@
   <img src="https://img.shields.io/badge/Auth-JWT-000000?logo=jsonwebtokens&logoColor=white" alt="JWT Authentication" />
 </p>
 
+## Screenshots
+
+<p align="center">
+  <img src="assets/screenshots/login.png" alt="Friends Manager sign-in screen" width="900" />
+</p>
+
+<p align="center">
+  <img src="assets/screenshots/friends-directory.png" alt="Friends directory" width="900" />
+</p>
+
+<p align="center">
+  <img src="assets/screenshots/friend-profile.png" alt="Friend profile" width="900" />
+</p>
+
 ## Features
 
 - Create an account or sign in with a secure bcrypt-hashed password.
