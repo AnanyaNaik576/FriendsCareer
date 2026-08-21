@@ -14,6 +14,16 @@ export const loginSchema = z.object({
     .min(6, "Password must be at least 6 characters long"),
 })
 
+export const registerSchema = z.object({
+  email: z
+    .string()
+    .min(1, "Email is required")
+    .email("Please enter a valid email address"),
+  password: z
+    .string()
+    .min(6, "Password must be at least 6 characters long"),
+})
+
 /**
  * Zod validation schema for creating a new Friend card.
  * - `name`: Required, at least 2 characters.

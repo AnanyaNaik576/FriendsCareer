@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { useNavigate, useLocation } from "react-router-dom"
+import { Link, useNavigate, useLocation } from "react-router-dom"
 import { useForm } from "react-hook-form"
 import { zodResolver } from "@hookform/resolvers/zod"
 import { toast } from "sonner"
@@ -131,11 +131,12 @@ export function Login() {
               )}
             </Button>
 
-            <div className="p-3 rounded-xl bg-muted/50 border border-border/50 text-[11px] text-center text-muted-foreground space-y-1 w-full">
-              <p className="font-semibold text-foreground">Demo Testing Credentials</p>
-              <p>Email: <span className="font-mono text-primary font-medium">demo@example.com</span></p>
-              <p>Password: <span className="font-mono text-primary font-medium">password123</span></p>
-            </div>
+            <p className="text-sm text-muted-foreground">
+              New here?{" "}
+              <Link to="/register" className="font-semibold text-primary hover:underline">
+                Create an account
+              </Link>
+            </p>
           </CardFooter>
         </form>
       </Card>

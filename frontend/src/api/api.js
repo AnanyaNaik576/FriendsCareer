@@ -2,12 +2,7 @@
  * Central API Gateway.
  * Components import login, getFriends, getFriendById, and createFriend from this module.
  *
- * TO SWITCH TO THE REAL BACKEND:
- * Swap the uncommented export below from "./mockApi" to "./apiClient".
+ * This file keeps component imports stable while routing requests to the real backend.
  */
 
-// Currently active API provider (Mock Mode for prototype testing)
-export * from "./mockApi"
-
-// Uncomment below to connect to live backend API:
-// export * from "./apiClient"
+export * from "./apiClient"

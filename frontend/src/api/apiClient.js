@@ -56,6 +56,13 @@ export async function login(credentials) {
   })
 }
 
+export async function register(credentials) {
+  return request("/register", {
+    method: "POST",
+    body: JSON.stringify(credentials),
+  })
+}
+
 export async function getFriends() {
   return request("/friends", {
     method: "GET",

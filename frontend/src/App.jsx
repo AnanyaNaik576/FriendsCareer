@@ -9,6 +9,7 @@ import { ProtectedRoute } from "@/components/ProtectedRoute"
 import { Toaster } from "@/components/ui/sonner"
 
 import { Login } from "@/pages/Login"
+import { Register } from "@/pages/Register"
 import { Dashboard } from "@/pages/Dashboard"
 import { FriendDetail } from "@/pages/FriendDetail"
 import { CreateFriend } from "@/pages/CreateFriend"
@@ -29,6 +30,7 @@ export default function App() {
                 <Routes>
                   {/* Public Authentication Route */}
                   <Route path="/login" element={<Login />} />
+                  <Route path="/register" element={<Register />} />
 
                   {/* Protected Friends Routes */}
                   <Route
