@@ -20,13 +20,19 @@
 
 ## Screenshots
 
+### Sign In
+
 <p align="center">
   <img src="assets/screenshots/login.png" alt="Friends Manager sign-in screen" width="900" />
 </p>
 
+### Friends Directory
+
 <p align="center">
   <img src="assets/screenshots/friends-directory.png" alt="Friends directory" width="900" />
 </p>
+
+### Friend Profile
 
 <p align="center">
   <img src="assets/screenshots/friend-profile.png" alt="Friend profile" width="900" />
